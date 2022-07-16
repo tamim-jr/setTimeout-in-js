@@ -10,3 +10,7 @@ setTimeout(function(){
 }, 3000);
 console.log(1200);
 console.log(1300);
+
+document.getElementById("timeid").addEventListener('click', function(){
+    document.getElementById("time-utput").innerText = new Date();
+});
